@@ -1,45 +1,45 @@
 .container {
+    padding: 10px;
     width: 950px;
     background-color: silver;
     margin: 0px auto;
-    padding: 2%;
 }
 
 .top-nav {
+    margin-bottom: 10px;
     height: 150px;
     background-color: green;
 }
 
 .side-nav {
-    vertical-align: top;
-    display: inline-block;
-    margin: 10px 10px 10px 0px;
+    margin-right: 20px;
     height: 300px;
     width: 200px;
     background-color: blue;
 }
 
 .main {
-    margin: 10px 0px 5px 10px;
-    display:inline-block;
+    padding: 20px;
     height: 400px;
     width: 700px;
-    padding: 10px;
     background-color: red;
 }
 
 .sub-content {
-    display: inline-block;
     height: 200px;
     width: 210px;
-    margin:10px 5px;
     background-color: yellow;
 }
 
 #advertisement {
-    display:inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
     height: 120px;
-    width: 660px;
-    margin-left: 5px;
+    width: 670px;
     background-color: purple;
+}
+
+.row {
+    display:flex;
+    justify-content:space-around;
 }
