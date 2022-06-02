@@ -1,0 +1,30 @@
+.nav {
+    background-color:rgba(10, 10, 10, 0.7);
+    font-family: roboto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    box-shadow: 0.09em 0.09em red;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color:White;
+}
+button{
+    background-color:rgb(0, 238, 255);
+    color:White
+}
+h1{
+    color:White;
+}
+li{
+    margin: 20px;
+}
+ul{
+    list-style-type: none;
+}

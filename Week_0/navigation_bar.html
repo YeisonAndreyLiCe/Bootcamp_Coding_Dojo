@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link rel="stylesheet" href="navigation_bar.css"-->
+    <style>
+        .nav {
+        background-color:rgba(10, 10, 10, 0.7);
+        font-family: roboto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        box-shadow: 0.09em 0.09em red;
+        }
+        .nav-links{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        a{
+            text-decoration: none;
+            color:White;
+        }
+        button{
+            background-color:rgb(0, 238, 255);
+            color:White
+        }
+        h1{
+            color:White;
+        }
+        li{
+            margin: 20px;
+        }
+        ul{
+            list-style-type: none;
+        }
+    </style>
+    <title>Navigation Bar</title>
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Perfil</h1>
+        <ul class="nav-links">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#" class="active">My Profile</a></li>
+            <li><a href="#">Encontrar conexiones</a></li>
+            <li><button class="btn">Cerrar sesión</button></li>
+        </ul>
+    </div>
+</body>
+</html>
