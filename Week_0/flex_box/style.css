@@ -1,0 +1,21 @@
+div{
+    border:1px solid orangered;
+    padding: 10px;
+    margin: 5px;
+}
+.container{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+container2{
+    background-color: red;
+}
+
+seccion1, seccion2, seccion3 {
+    flex-direction: column;
+}
