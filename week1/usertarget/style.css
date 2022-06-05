@@ -4,7 +4,7 @@
 }
 
 body {
-    margin:5%;
+    margin:3% 10% auto;
     display:flex;
     justify-content:center;
     font-family: monospace;
@@ -25,7 +25,7 @@ body {
 
 .top{
     width:100%;
-    background-color:rgb(46, 192, 192);
+    background-color:#17a2b8;
     height: 100px;
 }
 
@@ -33,9 +33,9 @@ body {
     border:2px inset gray;
     border-radius: 50%;
     position:absolute;
-    top: 50px;
-    left: 10px;
-    width:100px;
+    top: 30px;
+    left: 20px;
+    width:120px;
 }
 .settingsection img{
     width:20px;
